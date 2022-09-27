@@ -1,0 +1,109 @@
+.aboutServiceCard-item {
+  border-bottom: 1px solid black;
+}
+.aboutServiceCard-item button {
+  background-color: rgba(0, 0, 0, 0);
+  /* border-bottom-color: rgb(0, 0, 0); */
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  width: 100%;
+  /**/
+  border-bottom-width: 0px;
+  border-image-outset: 0;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-style: none;
+  color: rgb(0, 0, 0);
+  line-height: 18.4px;
+}
+
+.aboutServiceCard-item button h4 {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: PP Neue Montreal, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.6px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: left;
+  text-transform: none;
+}
+
+.aboutServiceCard-active {
+  padding-bottom: 50px;
+  padding-top: 5px;
+}
+
+.aboutServiceCard-active:after {
+  transition: ease-out 4s;
+}
+
+.aboutServiceCard-item button span {
+  cursor: pointer;
+  height: 21px;
+  position: relative;
+  width: 21px;
+  align-self: center;
+}
+
+.aboutServiceCard-item button span::before,
+.aboutServiceCard-item button span::after {
+  background: #000;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 10px;
+  /* width: 21px; */
+  width: 18px;
+  transition: transform 500ms ease;
+}
+/* .aboutServiceCard-item button span:after {
+    transform-origin: center;
+  } */
+
+.aboutServiceCard-item button .collapsed::after {
+  transform: rotate(90deg);
+}
+
+@media (min-width: 1100px) {
+  .aboutServiceCard-item button h4 {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: PP Neue Montreal, -apple-system, BlinkMacSystemFont, Segoe UI,
+      Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+      sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-transform: none;
+  }
+
+  .aboutServiceCard-active p {
+    font-size: 30px;
+  }
+}
