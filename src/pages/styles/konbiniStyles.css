@@ -2,6 +2,9 @@
   margin: 0 50px 0 50px;
 }
 
+.konbini-header {
+  padding-bottom: 5rem;
+}
 .konbini-title {
   font-size: 3rem;
   font-weight: 500;
@@ -13,11 +16,72 @@
 }
 
 .konbini-list__item {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: 1.5rem;
   line-height: 40px;
 }
 
 .konbini-bio {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 40px;
+}
+
+.konbini-images {
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
+  align-content: center;
+  margin-bottom: 15rem;
+}
+
+.konbini-images > div {
+  /* padding: 20px; */
+  width: 50%;
+  height: 50%;
+}
+
+.konbini-table {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* min-width: 1086px; */
+  /* max-width: 60%; */
+  border: 2px solid yellow;
+}
+
+.konbini-table__header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.konbini-table__header,
+.konbini-table__data {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  width: 50%;
+}
+
+.konbini-table__header > *,
+.konbini-table__data > * {
+  width: 100%;
+  font-size: 2rem;
+}
+
+.konbini-table__data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.konbini-table__data {
+}
+
+@media only screen and (max-width: 768px) {
+  .konbini-table__header {
+    visibility: hidden;
+  }
+
+  .konbini-table__data {
+    flex-wrap: wrap;
+  }
 }
