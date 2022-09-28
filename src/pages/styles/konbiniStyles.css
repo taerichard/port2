@@ -43,15 +43,15 @@
 .konbini-table {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   /* min-width: 1086px; */
   /* max-width: 60%; */
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 
 .konbini-table__header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .konbini-table__header,
@@ -64,8 +64,13 @@
 
 .konbini-table__header > *,
 .konbini-table__data > * {
-  width: 100%;
+  /* width: 100%; */
   font-size: 2rem;
+}
+
+.konbini-table__header span:nth-child(1) {
+  border: 2px solid red;
+  width: 286px;
 }
 
 .konbini-table__data {

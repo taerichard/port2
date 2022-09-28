@@ -21,26 +21,14 @@ const Konbini = () => {
 
         <div className="konbini-table">
           <div className="konbini-table__header">
-            <div>
-              <span>Role</span>
-            </div>
-            <div>
-              <span>Technology</span>
-            </div>
-            <div>
-              <span>Year</span>
-            </div>
+            <span>Role</span>
+            <span>Technology</span>
+            <span>Year</span>
           </div>
           <div className="konbini-table__data">
-            <div>
-              <span>UI Designer/Developer</span>
-            </div>
-            <div>
-              <span>React & CSS</span>
-            </div>
-            <div>
-              <span>2022</span>
-            </div>
+            <span>Designer/Developer</span>
+            <span>React & CSS</span>
+            <span>2022</span>
           </div>
         </div>
         <p className="konbini-bio">
