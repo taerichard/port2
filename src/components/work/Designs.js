@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import kon from "../../resources/images/konbini.jpg";
 import north from "../../resources/images/northcreek.jpg";
 import "./styles/designStyles.css";
+import fitnessLogo from "../../resources/images/designs/fitnessLogo.png";
 
 const Designs = () => {
   const [selectedId, setSelectedId] = useState(1);
@@ -13,8 +14,8 @@ const Designs = () => {
     },
     {
       id: 2,
-      title: "",
-      imgSrc: north,
+      title: "Logo",
+      imgSrc: fitnessLogo,
     },
     {
       id: 3,

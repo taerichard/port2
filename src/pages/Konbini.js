@@ -9,26 +9,20 @@ const Konbini = () => {
     <div className="konbini-container">
       <div className="konbini-header">
         <h1 className="konbini-title">Konbini</h1>
-        {/* <ul className="konbini-list">
-          <li className="konbini-list__item">
-            Role: UI Design and Development
-          </li>
-          <li className="konbini-list__item">
-            Technology: React JavaScript, CSS
-          </li>
-          <li className="konbini-list__item">Year: 2022</li>
-        </ul> */}
 
-        <div className="konbini-table">
-          <div className="konbini-table__header">
-            <span>Role</span>
-            <span>Technology</span>
-            <span>Year</span>
+        <div className="konbini-table-container">
+          <div className="konbini-role">
+            <h2>Role: </h2>
+            <h2>UI Designer / Developer</h2>
           </div>
-          <div className="konbini-table__data">
-            <span>Designer/Developer</span>
-            <span>React & CSS</span>
-            <span>2022</span>
+
+          <div className="konbini-tech">
+            <h2>Technology:</h2>
+            <h2>React / CSS</h2>
+          </div>
+          <div className="konbini-year">
+            <h2>Year:</h2>
+            <h2>2022</h2>
           </div>
         </div>
         <p className="konbini-bio">
@@ -39,10 +33,10 @@ const Konbini = () => {
       </div>
       <div className="konbini-images">
         <div className="konbini-images-1">
-          <img src={mobileImage} width="50%" />
+          <img src={mobileImage} />
         </div>
         <div className="konbini-images-2">
-          <img src={desktopImage} width="70%" />
+          <img src={desktopImage} />
         </div>
       </div>
       <ContactSection />
