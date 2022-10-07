@@ -3,6 +3,7 @@ import kon from "../../resources/images/konbini.jpg";
 import north from "../../resources/images/northcreek.jpg";
 import "./styles/designStyles.css";
 import fitnessLogo from "../../resources/images/designs/fitnessLogo.png";
+import konbiniDesign from "../../resources/images/designs/konbiniDesign.jpg";
 
 const Designs = () => {
   const [selectedId, setSelectedId] = useState(1);
@@ -10,7 +11,7 @@ const Designs = () => {
     {
       id: 1,
       title: "Konbini",
-      imgSrc: "",
+      imgSrc: konbiniDesign,
     },
     {
       id: 2,
