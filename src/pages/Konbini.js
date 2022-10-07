@@ -1,6 +1,6 @@
 import React from "react";
 import mobileImage from "../resources/images/projects/konbini/konbiniMobile.jpg";
-import desktopImage from "../resources/images/projects/konbini/konbiniDesktop.jpg";
+import desktopImage from "../resources/images/projects/konbini/konbiniDesktop.png";
 import "./styles/konbiniStyles.css";
 import ContactSection from "../components/work/Contact";
 import konbiniLogo from "../resources/images/projects/konbini/konbiniLogo.png";
@@ -32,6 +32,9 @@ const Konbini = () => {
       </div>
       <div className="konbini-prototype">
         <h2 className="konbini-title konbini-title2">Prototype Design</h2>
+        <div className="konbini-image">
+          <img src={desktopImage} />
+        </div>
       </div>
       {/* 
       <div className="row-2">

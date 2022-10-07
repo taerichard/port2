@@ -13,6 +13,7 @@
 .konbini-info {
   display: flex;
   justify-content: space-between;
+  min-width: 1119px;
 }
 
 .margin-right {
@@ -62,46 +63,25 @@
 
 .konbini-title2 {
   text-transform: none;
+  min-width: 883px;
 }
 
-.konbini-img {
-  height: 400px;
-  position: relative;
-  background-color: blue;
-  border: 2px solid black;
+.konbini-image {
+  width: 70%;
+  height: 80%;
+  margin-bottom: 25rem;
 }
 
-.konbini-img img {
+.konbini-image img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.konbini-overlay {
-  position: absolute;
-  bottom: 0;
-  opacity: 0;
-  width: 100%;
-  height: 100%;
-  transition: 0.5s ease;
-}
-
-.konbini-img:hover .konbini-overlay {
-  opacity: 1;
-  cursor: pointer;
-}
-
-.konbini-img:hover .konbini-img img {
-  background-color: white;
-}
-
-.konbini-overlay p {
-  top: 50%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
 }
 @media only screen and (max-width: 768px) {
+  .konbini-info {
+    flex-wrap: wrap;
+    min-width: 470px;
+  }
+
+  .konbini-prototype h2 {
+  }
 }
