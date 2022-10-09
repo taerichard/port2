@@ -1,7 +1,7 @@
 import Header from "./components/work/Header";
 import { Routes, Route, useRoutes } from "react-router-dom";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import ContactPage from "./pages/ContactPage";
 import Work from "./pages/Work";
 import Konbini from "./pages/Konbini";
 import NorthCreek from "./pages/NorthCreek";
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Work />} />
         <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="contact" element={<ContactPage />} />
         <Route path="konbini" element={<Konbini />} />
         <Route path="northcreek" element={<NorthCreek />} />
       </Routes>

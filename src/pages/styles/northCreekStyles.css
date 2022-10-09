@@ -1,0 +1,87 @@
+.nc-container {
+  margin: 0 120px 0 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nc-title {
+  font-size: 7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nc-info {
+  display: flex;
+  justify-content: space-between;
+  min-width: 1119px;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.nc-info h2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.nc-role,
+.nc-tech,
+.nc-year {
+  display: flex;
+  flex-direction: row;
+}
+
+.nc-bio {
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.nc-link-container {
+  margin-top: 4rem;
+}
+.nc-link {
+  font-size: 2.2rem;
+  width: 385px;
+  cursor: pointer;
+  margin-bottom: 20rem;
+}
+
+.nc-link {
+  transition-property: border-bottom;
+  transition-delay: 5ms;
+  transition-duration: 5000ms;
+  transition-timing-function: ease-out;
+}
+
+.nc-link:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.nc-prototype {
+  margin-top: 12rem;
+}
+
+.nc-title2 {
+  text-transform: none;
+  min-width: 883px;
+}
+
+/* .nc-image {
+  width: 70%;
+  height: 80%;
+  margin-bottom: 25rem;
+} */
+
+/* .nc-image img {
+  height: 100%;
+  width: 100%;
+} */
+@media only screen and (max-width: 768px) {
+  .nc-info {
+    flex-wrap: wrap;
+    min-width: 470px;
+  }
+
+  .nc-prototype h2 {
+  }
+}

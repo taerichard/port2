@@ -1,0 +1,52 @@
+.contactPage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactPage-form {
+  width: 500px;
+}
+.contactPage-title {
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 65px;
+  text-align: center;
+}
+
+label {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+input {
+  display: inline-block;
+  height: 40%;
+  width: 80%;
+}
+
+.form-nameEmail {
+  display: flex;
+  border: 2px solid red;
+}
+
+.form-msgBtn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nameLabel {
+  margin-left: auto;
+}
+
+textarea {
+  height: 300px;
+}
+
+button {
+}

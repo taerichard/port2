@@ -4,24 +4,27 @@ import north from "../../resources/images/northcreek.jpg";
 import "./styles/designStyles.css";
 import fitnessLogo from "../../resources/images/designs/fitnessLogo.png";
 import konbiniDesign from "../../resources/images/designs/konbiniDesign.jpg";
+import languageImage from "../../resources/images/designs/languages.png";
+import librariesImage from "../../resources/images/designs/libraries.png";
+import designTools from "../../resources/images/designs/designTools.png";
 
 const Designs = () => {
   const [selectedId, setSelectedId] = useState(1);
   const [images, setImages] = useState([
     {
       id: 1,
-      title: "Konbini",
-      imgSrc: konbiniDesign,
+      title: "Languages",
+      imgSrc: languageImage,
     },
     {
       id: 2,
-      title: "Logo",
-      imgSrc: fitnessLogo,
+      title: "Libraries",
+      imgSrc: librariesImage,
     },
     {
       id: 3,
-      title: "Images",
-      imgSrc: north,
+      title: "Design Tools",
+      imgSrc: designTools,
     },
     {
       id: 4,
@@ -33,27 +36,33 @@ const Designs = () => {
   return (
     <div className="design-container">
       <div className="design-title">
-        <h1>Small Designs.</h1>
+        <h1>Development Skills</h1>
       </div>
-      <div className="design-list-container">
-        <ul className="design-lists">
-          {images.map(({ id, title, imgSrc }) => {
-            return (
-              <li
-                className="design-list__item"
-                key={id}
-                onClick={() => setSelectedId(id)}
-              >
-                <span className={id == selectedId ? "design-list__active" : ""}>
-                  {title}
-                </span>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-      <div className="design-list-image">
-        <img src={images.filter((image) => image.id == selectedId)[0].imgSrc} />
+      <div className="design-col">
+        <div className="design-list-container">
+          <ul className="design-lists">
+            {images.map(({ id, title, imgSrc }) => {
+              return (
+                <li
+                  className="design-list__item"
+                  key={id}
+                  onClick={() => setSelectedId(id)}
+                >
+                  <span
+                    className={id == selectedId ? "design-list__active" : ""}
+                  >
+                    {title}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="design-list-image">
+          <img
+            src={images.filter((image) => image.id == selectedId)[0].imgSrc}
+          />
+        </div>
       </div>
     </div>
   );
