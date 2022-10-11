@@ -8,7 +8,7 @@ import languageImage from "../../resources/images/designs/languages.png";
 import librariesImage from "../../resources/images/designs/libraries.png";
 import designTools from "../../resources/images/designs/designTools.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faBook, faPenNib } from "@fortawesome/free-solid-svg-icons";
 
 //https://www.youtube.com/watch?v=SK9AlIbexOE&ab_channel=MonsterlessonsAcademy
 // https://mattfarley.ca/
@@ -45,8 +45,7 @@ const Designs = () => {
       </div>
       <div className="design-skills">
         <div className="design design-languages">
-          {/* <FontAwesomeIcon icon={faCode} size="4x"/> */}
-          <i class="fa-thin fa-code"></i>
+          <FontAwesomeIcon icon={faCode} size="3x" />
           <h2 className="design-title">Languages</h2>
           <ul className="design-items">
             <li className="design-item">Javascript</li>
@@ -56,6 +55,7 @@ const Designs = () => {
           </ul>
         </div>
         <div className="design design-framework">
+          <FontAwesomeIcon icon={faBook} size="3x" />
           <h2 className="design-title">Frameworks</h2>
           <ul className="design-items">
             <li className="design-item">React</li>
@@ -65,6 +65,7 @@ const Designs = () => {
           </ul>
         </div>
         <div className="design design-design">
+          <FontAwesomeIcon icon={faPenNib} size="3x" />
           <h2 className="design-title">Design Tools</h2>
           <ul className="design-items">
             <li className="design-item">Figma</li>
