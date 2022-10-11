@@ -7,6 +7,11 @@ import konbiniDesign from "../../resources/images/designs/konbiniDesign.jpg";
 import languageImage from "../../resources/images/designs/languages.png";
 import librariesImage from "../../resources/images/designs/libraries.png";
 import designTools from "../../resources/images/designs/designTools.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+
+//https://www.youtube.com/watch?v=SK9AlIbexOE&ab_channel=MonsterlessonsAcademy
+// https://mattfarley.ca/
 
 const Designs = () => {
   const [selectedId, setSelectedId] = useState(1);
@@ -35,10 +40,40 @@ const Designs = () => {
 
   return (
     <div className="design-container">
-      <div className="design-title">
+      <div className="design-mainTitle">
         <h1>Development Skills</h1>
       </div>
-      <div className="design-col">
+      <div className="design-skills">
+        <div className="design design-languages">
+          {/* <FontAwesomeIcon icon={faCode} size="4x"/> */}
+          <i class="fa-thin fa-code"></i>
+          <h2 className="design-title">Languages</h2>
+          <ul className="design-items">
+            <li className="design-item">Javascript</li>
+            <li className="design-item">CSharp</li>
+            <li className="design-item">HTML</li>
+            <li className="design-item">CSS</li>
+          </ul>
+        </div>
+        <div className="design design-framework">
+          <h2 className="design-title">Frameworks</h2>
+          <ul className="design-items">
+            <li className="design-item">React</li>
+            <li className="design-item">Node Express</li>
+            <li className="design-item">DJango</li>
+            <li className="design-item">CSS</li>
+          </ul>
+        </div>
+        <div className="design design-design">
+          <h2 className="design-title">Design Tools</h2>
+          <ul className="design-items">
+            <li className="design-item">Figma</li>
+            <li className="design-item">Marvel</li>
+            <li className="design-item">Adobe Photoshop</li>
+          </ul>
+        </div>
+      </div>
+      {/* <div className="design-col">
         <div className="design-list-container">
           <ul className="design-lists">
             {images.map(({ id, title, imgSrc }) => {
@@ -63,7 +98,7 @@ const Designs = () => {
             src={images.filter((image) => image.id == selectedId)[0].imgSrc}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
