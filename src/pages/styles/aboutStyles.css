@@ -5,15 +5,17 @@
 }
 
 .about-title {
-  font-size: 5rem;
+  font-size: 3.4rem;
   font-weight: 100;
 }
 
 .about-info {
-  width: 70%;
+  width: 100%;
   font-size: 1.5rem;
+  line-height: 27px;
 }
 .about-image {
+  display: none;
   width: 50%;
   height: 500px;
 }
@@ -23,26 +25,23 @@
   height: 100%;
   object-fit: cover;
 }
-
+.aboutServices-block {
+}
 .aboutServiceCards-container {
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
-  width: 60%;
-  /* margin-left: auto; */
+  width: 100%;
   margin-right: auto;
   margin-bottom: 5rem;
 }
 
 @media only screen and (min-width: 768px) {
   .about-container {
-    border: 2px solid red;
-    /* flex-direction: row; */
+    padding: 0 30px 0 30px;
   }
 
   .about-row-1 {
     display: flex;
-    justify-content: space-between;
   }
   .about-info {
     width: 40%;
@@ -52,8 +51,12 @@
   }
 
   .aboutServiceCards-container {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .about-image {
+    display: block;
   }
 }

@@ -55,8 +55,12 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .design-container {
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+  }
+
   .design-skills {
-    border: 2px solid red;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -68,7 +72,19 @@
   }
 
   .design {
-    border: 2px solid blue;
     width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    /* border: 2px solid red; */
+    /* border-bottom: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 5px; */
+  }
+  .design-title {
+    display: none;
+  }
+
+  .design-mainTitle h1 {
+    text-align: center;
   }
 }

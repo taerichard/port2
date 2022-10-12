@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <div>
       <div className="about-container">
-        <div>
+        <div className="about-title-block">
           <h1 className="about-title">Richard Tae</h1>
         </div>
         <div className="about-row-1">
@@ -24,6 +24,7 @@ export const About = () => {
               player and a forever humble student to web development.
             </p>
           </div>
+
           <div className="about-image">
             <img src={meSpain} />
           </div>
