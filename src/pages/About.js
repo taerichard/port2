@@ -20,8 +20,9 @@ export const About = () => {
             </p>
             <p>
               I recently graduated with a bachelor’s of applied science in
-              Software Development with development work experience. I’m a team
-              player and a forever humble student to web development.
+              Software Development with development work experience. I’m a USAF
+              veteran, team player and a forever humble student to web
+              development.
             </p>
           </div>
 
@@ -29,10 +30,14 @@ export const About = () => {
             <img src={meSpain} />
           </div>
         </div>
-        <div className="aboutServiceCards-container">
-          {aboutServiceData.map(({ title, description }) => {
-            return <AboutServiceCard title={title} description={description} />;
-          })}
+        <div className="aboutService-block">
+          <div className="aboutServiceCards-container">
+            {aboutServiceData.map(({ title, description }) => {
+              return (
+                <AboutServiceCard title={title} description={description} />
+              );
+            })}
+          </div>
         </div>
       </div>
       <ContactSection />
