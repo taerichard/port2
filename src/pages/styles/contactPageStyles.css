@@ -6,6 +6,7 @@
 
 .contactPage-form {
   width: 500px;
+  /* border: 2px solid green; */
 }
 .contactPage-title {
   font-size: 4rem;
@@ -25,11 +26,35 @@ input {
   display: inline-block;
   height: 40%;
   width: 80%;
+  padding: 0;
 }
 
 .form-nameEmail {
   display: flex;
-  border: 2px solid red;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.email-container label {
+  text-align: left;
+}
+.email-container {
+  /* border: 2px solid blue; */
+  text-align: right;
+  width: 45%;
+}
+
+.email-container input {
+  width: 100%;
+}
+
+.name-container {
+  /* border: 2px solid cyan; */
+  width: 45%;
+}
+
+.name-container input {
+  width: 100%;
 }
 
 .form-msgBtn {
@@ -49,4 +74,76 @@ textarea {
 }
 
 button {
+  border: none;
+  /* background-color: beige; */
+  width: 200px;
+  border: 1px solid black;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 531px) {
+  .contactPage-form input {
+    height: 45px;
+  }
+
+  .contactPage-form label {
+    font-size: 1.3rem;
+  }
+  .contactPage-title {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+  }
+  .contactPage-form {
+    width: 300px;
+    /* border: 2px solid green; */
+  }
+
+  .name-container,
+  .email-container {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .form-nameEmail {
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blue; */
+  }
+
+  .form-msgBtn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid red; */
+  }
+
+  textarea {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100px;
+  }
+
+  button {
+    border: none;
+    background-color: #fff;
+    width: 300px;
+    border: 1px solid black;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
 }

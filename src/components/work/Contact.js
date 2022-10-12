@@ -13,7 +13,7 @@ const ContactSection = () => {
               href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=taerichard@gmail.com
 "
             >
-              Email
+              email
             </a>
           </li>
           <li className="contact-item">
@@ -21,12 +21,12 @@ const ContactSection = () => {
               target="_blank"
               href="https://www.linkedin.com/in/richard-tae-bb4ba215a/"
             >
-              LinkedIn
+              linkedIn
             </a>
           </li>
           <li className="contact-item">
             <a target="_blank" href="https://github.com/taerichard">
-              Github
+              github
             </a>
           </li>
         </ul>
