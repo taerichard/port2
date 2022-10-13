@@ -1,13 +1,14 @@
 import React from "react";
 import "./styles/contactPageStyles.css";
 import ContactSection from "../components/work/Contact";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faM, faMessage } from "@fortawesome/free-solid-svg-icons";
+import { send } from "emailjs-com";
 
+//service_32vtkct
+
+// https://www.youtube.com/watch?v=aor9hlcODUE&ab_channel=EricMurphy
 function ContactPage() {
   return (
     <div className="contactPage-container">
-      <FontAwesomeIcon icon={faMessage} color="light" />
       <h1 className="contactPage-title">
         Contact me for any questions.
         <br /> What can I do for you?

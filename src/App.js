@@ -5,6 +5,7 @@ import ContactPage from "./pages/ContactPage";
 import Work from "./pages/Work";
 import Konbini from "./pages/Konbini";
 import NorthCreek from "./pages/NorthCreek";
+import React from "react";
 
 function App() {
   return (
