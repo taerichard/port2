@@ -18,6 +18,7 @@ export const About = () => {
               I am a UI Developer/Designer. Designing and developing user
               centric web designs are my passions.
             </p>
+            <br />
             <p>
               I recently graduated with a bachelor’s of applied science in
               Software Development with development work experience. I’m a USAF

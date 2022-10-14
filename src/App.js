@@ -5,6 +5,7 @@ import ContactPage from "./pages/ContactPage";
 import Work from "./pages/Work";
 import Konbini from "./pages/Konbini";
 import NorthCreek from "./pages/NorthCreek";
+import ThankYou from "./pages/ThankYou";
 import React from "react";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="contact" element={<ContactPage />} />
         <Route path="konbini" element={<Konbini />} />
         <Route path="northcreek" element={<NorthCreek />} />
+        <Route path="/thankyou" element={<ThankYou />} />
       </Routes>
     </div>
   );
