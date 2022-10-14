@@ -78,11 +78,28 @@
   width: 100%;
 }
 @media only screen and (max-width: 768px) {
+  .konbini-container {
+    margin: 0 20px 0 20px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  .konbini-title {
+    font-size: 5rem;
+    /* font-weight: 500;
+    text-transform: uppercase; */
+  }
+
   .konbini-info {
     flex-wrap: wrap;
     flex-direction: column;
     /* min-width: 470px; */
-    border: 2px solid red;
+  }
+
+  .konbini-info h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    /* padding: 20px; */
   }
 
   .konbini-prototype h2 {

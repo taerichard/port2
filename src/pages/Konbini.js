@@ -24,8 +24,8 @@ const Konbini = () => {
         </div>
       </div>
       <p className="konbini-bio">
-        I designed a clean and intuitive vape shopping experience with carefully
-        chosen images to protray different products.
+        I designed a clean online shopping experience with carefully chosen
+        images to protray different products.
       </p>
       <div className="konbini-link-container">
         <a className="konbini-link">Click here to view project</a>
