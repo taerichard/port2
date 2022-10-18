@@ -63,6 +63,7 @@
 }
 
 .konbini-title2 {
+  text-align: center;
   text-transform: none;
   min-width: 883px;
 }
@@ -71,13 +72,15 @@
   width: 70%;
   height: 80%;
   margin-bottom: 25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .konbini-image img {
   height: 100%;
   width: 100%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 978px) {
   .konbini-container {
     margin: 0 20px 0 20px;
     /* display: flex;
@@ -85,9 +88,25 @@
   }
 
   .konbini-title {
-    font-size: 5rem;
+    font-size: 3rem;
     /* font-weight: 500;
     text-transform: uppercase; */
+  }
+
+  .konbini-title2 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: none;
+    min-width: 883px;
+    text-align: left;
+  }
+
+  .konbini-image {
+    width: 70%;
+    height: 80%;
+    margin-bottom: 25rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .konbini-info {
@@ -100,8 +119,14 @@
     margin: 0;
     margin-bottom: 20px;
     /* padding: 20px; */
+    font-size: 1.5rem;
   }
 
-  .konbini-prototype h2 {
+  .konbini-bio {
+    font-size: 2rem;
+  }
+
+  .konbini-link {
+    font-size: 2rem;
   }
 }

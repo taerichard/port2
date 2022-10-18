@@ -48,7 +48,8 @@ const northCreek = () => {
       </div>
       <p className="nc-bio">
         I created a web application for North Creek Forest administrators. My
-        role involved creating APIs, controllers, and retrieving data for users.
+        role involved creating APIs, controllers, retrieving data for users, and
+        dashboard styling.
       </p>
       {/* <div className="nc-link-container">
         <a className="nc-link">Click here to view project</a>
@@ -57,7 +58,11 @@ const northCreek = () => {
         <h2 className="nc-title nc-title2">User Interfaces</h2>
         <div className="nc-images">
           {projectImages.map((image) => {
-            return <img src={image.imgSrc} />;
+            return (
+              <div className="nc-image">
+                <img src={image.imgSrc} />
+              </div>
+            );
           })}
         </div>
       </div>
