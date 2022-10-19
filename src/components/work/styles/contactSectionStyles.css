@@ -28,15 +28,18 @@
 }
 
 .contact-logo {
+  padding-top: 1rem;
   font-weight: 500;
   font-size: 1rem;
 }
 
 .contact-item {
+  /* padding: 3px; */
   cursor: pointer;
   transition-property: border-bottom;
   transition-duration: 8000ms;
   transition-timing-function: ease-out;
+  /* text-transform: uppercase; */
   /* padding-bottom: 20px; */
 }
 
@@ -68,6 +71,6 @@
   }
 
   .contact-logo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }

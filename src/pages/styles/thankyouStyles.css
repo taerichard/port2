@@ -1,0 +1,55 @@
+.thankyou-container {
+  /* border: 2px solid blue; */
+  height: 100vh;
+}
+.thankyou-block {
+  margin-top: 5rem;
+  /* margin-bottom: 40rem; */
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+.thankyou-message {
+  font-size: 1.5rem;
+  line-height: 37px;
+  /* border: 2px solid green; */
+  text-align: center;
+}
+
+.cap {
+  font-size: 3rem;
+}
+
+.noCap {
+  margin-top: 3rem;
+}
+
+.check-icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.check-icon {
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) {
+  .thankyou-message {
+    font-size: 2rem;
+    line-height: 37px;
+  }
+
+  .cap {
+    font-size: 4rem;
+  }
+
+  .noCap {
+    margin-top: 3rem;
+  }
+}

@@ -8,7 +8,14 @@ const ContactSection = () => {
       <h1 className="contact-title">Lets get in touch.</h1>
       <div className="col-1">
         <ul className="contact-list">
-          <li className="contact-item">email</li>
+          <li className="contact-item">
+            <a
+              href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=taerichard@gmail.com
+"
+            >
+              email
+            </a>
+          </li>
           <li className="contact-item">
             <a
               target="_blank"
@@ -22,9 +29,6 @@ const ContactSection = () => {
               github
             </a>
           </li>
-          {/* <li className="contact-item">
-            <NavLink to="resume">resume</NavLink>
-          </li> */}
         </ul>
         <h2 className="contact-logo">© Richard Tae Design 2022</h2>
       </div>

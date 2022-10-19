@@ -1,32 +1,52 @@
 import React from "react";
 import mobileImage from "../resources/images/projects/konbini/konbiniMobile.jpg";
-import desktopImage from "../resources/images/projects/konbini/konbiniDesktop.jpg";
+import desktopImage from "../resources/images/projects/konbini/konbiniDesktop.png";
 import "./styles/konbiniStyles.css";
+import ContactSection from "../components/work/Contact";
+import konbiniLogo from "../resources/images/projects/konbini/konbiniLogo.png";
 
 const Konbini = () => {
   return (
     <div className="konbini-container">
-      <div className="konbini-header">
-        <h1 className="konbini-title">Konbini</h1>
-        <ul className="konbini-list">
-          <li className="konbini-list__item">
-            Role: UI Design and Development
-          </li>
-          <li className="konbini-list__item">
-            Technology: React JavaScript, CSS
-          </li>
-          <li className="konbini-list__item">Year: 2022</li>
-        </ul>
-        <p className="konbini-bio">
-          Responsive web design of an online electric ciggarette store located
-          in Austin, TX. The design was to create trust, a simple experience,
-          and product knowledge.
-        </p>
+      <h1 className="konbini-title">Konbini</h1>
+      <div className="konbini-info">
+        <div className="konbini-role">
+          <h2 className="margin-right">Role: </h2>
+          <h2>UI Designer / Developer</h2>
+        </div>
+        <div className="konbini-tech">
+          <h2 className="margin-right">Technology:</h2>
+          <h2>React / CSS</h2>
+        </div>
+        <div className="konbini-year">
+          <h2 className="margin-right">Year:</h2>
+          <h2>2022</h2>
+        </div>
       </div>
-      <div className="konbini-images">
-        <img src={desktopImage} width="50%" />
-        <img src={mobileImage} width="50%" />
+      <p className="konbini-bio">
+        I designed a clean online shopping experience with carefully chosen
+        images to protray different products.
+      </p>
+      <div className="konbini-link-container">
+        <a className="konbini-link">Click here to view project</a>
       </div>
+      <div className="konbini-prototype">
+        <h2 className="konbini-title konbini-title2">Prototype Design</h2>
+        <div className="konbini-image">
+          <img src={desktopImage} />
+        </div>
+      </div>
+      {/* 
+      <div className="row-2">
+        <div className="konbini-img">
+          <img src={konbiniLogo} />
+          <div className="konbini-overlay">
+            <p>View Project</p>
+          </div>
+        </div>
+      </div> */}
+
+      <ContactSection />
     </div>
   );
 };

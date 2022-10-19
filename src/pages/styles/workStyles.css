@@ -4,14 +4,8 @@
     format("truetype");
 }
 
-/* @font-face {
-  font-family: "Neue Montreal";
-  src: url("../../../public/fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Thin.otf")
-    format("truetype");
-} */
-
 .work-container {
-  margin-top: -9rem;
+  margin-top: -5rem;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   column-gap: 32px;
@@ -26,10 +20,10 @@
 }
 
 .work-title {
-  font-size: 7rem;
+  font-size: 5.3rem;
   font-weight: 400;
   letter-spacing: 2px;
-  line-height: 90px;
+  line-height: 65px;
   padding-left: 30px;
 }
 
@@ -39,6 +33,7 @@
   grid-column-end: 8;
   display: flex;
   justify-content: space-between;
+  margin-top: 1px;
 }
 
 .work-bio-1 {
@@ -120,6 +115,10 @@
     font-weight: 400;
     letter-spacing: 2px;
     line-height: 180px;
+  }
+
+  .work-bio__project {
+    padding-bottom: 10px;
   }
 
   .work-bio-1 > * {
