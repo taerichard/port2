@@ -97,6 +97,10 @@
     font-size: 3rem;
   }
 
+  .margin-right {
+    padding-right: 10px;
+  }
+
   .nc-info {
     /* flex-wrap: wrap; */
     /* min-width: 470px; */

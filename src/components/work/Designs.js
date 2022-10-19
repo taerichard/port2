@@ -77,6 +77,7 @@ const Designs = () => {
               <li className="design-item">Figma</li>
               <li className="design-item">Marvel</li>
               <li className="design-item">Adobe Photoshop</li>
+              <li className="design-item">Pen & Paper</li>
             </ul>
           </div>
         </div>

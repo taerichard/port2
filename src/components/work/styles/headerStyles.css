@@ -1,5 +1,6 @@
 .header {
   z-index: 1000;
+  padding: 0 20px 0 20px;
 }
 
 .header-nav {
@@ -17,4 +18,11 @@
 
 .header-nav > *:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+  .header-nav {
+    /* display: flex;
+    justify-content: flex-end; */
+  }
 }

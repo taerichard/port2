@@ -3,6 +3,7 @@ import "./styles/contactPageStyles.css";
 import ContactSection from "../components/work/Contact";
 import { send } from "emailjs-com";
 import { NavLink, useNavigate } from "react-router-dom";
+import { GrContact } from "react-icons/gr";
 
 //service_32vtkct
 
@@ -36,6 +37,7 @@ function ContactPage() {
 
   return (
     <div className="contactPage-container">
+      <GrContact size="8em" className="contact-icon" />
       <h1 className="contactPage-title">
         Contact me for any questions.
         <br /> What can I do for you?
@@ -72,7 +74,7 @@ function ContactPage() {
             value={toSend.message}
             onChange={handleChange}
           ></textarea>
-          <button>Submit</button>
+          <button className="contact-button">Submit</button>
         </div>
       </form>
       {/* <ContactSection /> */}

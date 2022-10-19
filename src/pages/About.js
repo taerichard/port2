@@ -3,6 +3,7 @@ import { aboutServiceData } from "../components/about/aboutServiceData";
 import AboutServiceCard from "../components/about/AboutServiceCard";
 import "./styles/aboutStyles.css";
 import meSpain from "../resources/images/about/meSpain.jpg";
+import me from "../resources/images/about/me.jpg";
 import ContactSection from "../components/work/Contact";
 
 export const About = () => {
@@ -28,7 +29,7 @@ export const About = () => {
           </div>
 
           <div className="about-image">
-            <img src={meSpain} />
+            <img src={me} />
           </div>
         </div>
         <div className="aboutService-block">

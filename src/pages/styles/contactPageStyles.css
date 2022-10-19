@@ -2,8 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 1000px;
 }
 
+.contact-icon {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
 .contactPage-form {
   width: 500px;
   /* border: 2px solid green; */
@@ -90,6 +95,14 @@ button {
   margin-top: 30px;
   font-size: 1.2rem;
   cursor: pointer;
+  background-color: #fff;
+  transition-property: background-color;
+  transition-duration: 5ms;
+  transition-timing-function: ease-in;
+}
+
+.contact-button:hover {
+  background-color: cyan;
 }
 
 @media only screen and (max-width: 531px) {
@@ -97,6 +110,10 @@ button {
     height: 45px;
   }
 
+  .contact-icon {
+    font-size: 0.5em;
+    margin-bottom: 0;
+  }
   .contactPage-form label {
     font-size: 1.3rem;
   }
@@ -138,7 +155,7 @@ button {
     height: 100px;
   }
 
-  button {
+  .contact-button {
     border: none;
     background-color: #fff;
     width: 300px;

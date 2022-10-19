@@ -39,7 +39,7 @@ const northCreek = () => {
         </div>
         <div className="nc-tech">
           <h2 className="margin-right">Technology:</h2>
-          <h2>.Net Core, MSSQL, </h2>
+          <h2>DotNetCore, MSSQL, </h2>
         </div>
         <div className="nc-year">
           <h2 className="margin-right">Year:</h2>
