@@ -14,6 +14,6 @@ export const projectData = [
     imgSrc: northCreekImage,
     title: "Photo Points",
     desc: "Designed and developed for North Creek Forest IT adminstrators and clients to share nature photos.  ",
-    link: "northCreek",
+    link: "northcreek",
   },
 ];
