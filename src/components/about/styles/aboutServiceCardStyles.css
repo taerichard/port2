@@ -84,6 +84,12 @@
 }
 
 @media (min-width: 1100px) {
+  .aboutServiceCard-item {
+    border-bottom: 1px solid black;
+  }
+  .aboutServiceCard-item button {
+    padding-left: 0;
+  }
   .aboutServiceCard-item button h4 {
     color: rgb(0, 0, 0);
     cursor: pointer;
