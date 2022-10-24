@@ -29,7 +29,7 @@ function Work() {
             <p className="work-bio__text">
               My name is Richard Tae, a UI Designer and Developer. Designing and
               developing a rich user interface is my passion. I aim for clean
-              user centric designs, creating a pleasureable experience.
+              user centric designs.
             </p>
           </div>
           <div className="work-bio-2">
