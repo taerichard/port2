@@ -7,8 +7,6 @@
 .about-title {
   font-size: 3.4rem;
   font-weight: 100;
-  /* margin-bottom: 4rem; */
-  /* border: 2px solid red; */
 }
 
 .about-info {
@@ -64,19 +62,15 @@
 
   .aboutService-block {
     margin-top: 5rem;
-
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    /* border: 2px solid blue; */
     width: 60%;
   }
   .aboutServiceCards-container {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
     padding-bottom: 10rem;
-    height: 350px;
   }
 
   .about-image {

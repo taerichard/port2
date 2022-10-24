@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Thin.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Medium.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  font-weight: bold;
+  font-style: italic;
+  src: url("./fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Semi-BoldItalic.otf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Italic.otf")
+    format("truetype");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Book.otf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./fonts/PPNeueMontreal-Free\ for\ personal\ use\ v2.4/PPNeueMontreal-Bold.otf")
+    format("truetype");
+  font-weight: bold;
+}

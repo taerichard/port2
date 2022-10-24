@@ -22,9 +22,8 @@ export const About = () => {
             <br />
             <p>
               I recently graduated with a bachelor’s of applied science in
-              Software Development with development work experience. I’m a USAF
-              veteran, team player and a forever humble student to web
-              development.
+              Software Development with development work experience. I’m a team
+              player and a forever humble student to web development.
             </p>
           </div>
 
