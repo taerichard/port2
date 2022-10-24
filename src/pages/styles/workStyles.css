@@ -127,10 +127,13 @@
   }
 
   .work-title {
-    font-size: 13rem;
+    /* font-size: 13rem; */
+    font-size: 9rem;
     font-weight: 400;
     letter-spacing: 2px;
-    line-height: 180px;
+    line-height: 110px;
+    /* line-height: 180px; */
+    margin-top: 210px;
   }
 
   .work-bio__project {
@@ -172,8 +175,9 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .work-bio-container {
-    /* padding-right: 50px; */
+@media only screen and (min-width: 1200px) {
+  .work-title {
+    font-size: 13rem;
+    line-height: 160px;
   }
 }
