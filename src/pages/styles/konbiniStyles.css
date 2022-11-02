@@ -39,6 +39,11 @@
 .konbini-link-container {
   margin-top: 4rem;
 }
+
+.konbini-link-container a {
+  text-decoration: none;
+  color: inherit;
+}
 .konbini-link {
   font-size: 2.2rem;
   width: 385px;

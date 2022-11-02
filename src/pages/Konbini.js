@@ -24,11 +24,16 @@ const Konbini = () => {
         </div>
       </div>
       <p className="konbini-bio">
-        I designed a clean online shopping experience with carefully chosen
-        images to protray different products.
+        I designed and developed a landing page for an online electronic store.
       </p>
       <div className="konbini-link-container">
-        <a className="konbini-link">Click here to view project</a>
+        <a
+          target="_blank"
+          href="https://melodious-creponne-0d0a36.netlify.app/"
+          className="konbini-link"
+        >
+          Click here to view project
+        </a>
       </div>
       <div className="konbini-prototype">
         <h2 className="konbini-title konbini-title2">Prototype Design</h2>
