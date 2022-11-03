@@ -3,11 +3,7 @@ import "./styles/projectStyles.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const Project = ({ id, title, desc, imgSrc, link }) => {
-  const [projectLink, setProjectLink] = useState(null);
-
   const showProjectPage = (projectLink) => {
-    console.log(projectLink);
-    // window.location.href = `${link}`;
     window.location.href = `${projectLink}`;
   };
 
