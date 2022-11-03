@@ -14,7 +14,8 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  transition: 0.4s all ease-in;
+  /* transition: 0.4s all ease-in; */
+  transition: 850ms all ease-in;
 }
 
 .project-image img:hover {

@@ -6,14 +6,14 @@ export const projectData = [
     id: 1,
     imgSrc: konbiniImage,
     title: "Konbini Online Store",
-    desc: "Online べイ store experience with clean, slick, and minimal designs.",
+    desc: "Online electronic store with clean minimal designs.",
     link: "konbini",
   },
   {
     id: 2,
     imgSrc: northCreekImage,
     title: "Photo Points",
-    desc: "Designed and developed for North Creek Forest IT adminstrators and clients to share nature photos.  ",
+    desc: "A web application where hikers and adminstrators interact.",
     link: "northcreek",
   },
 ];

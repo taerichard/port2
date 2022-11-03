@@ -24,7 +24,9 @@ const Konbini = () => {
         </div>
       </div>
       <p className="konbini-bio">
-        I designed and developed a landing page for an online electronic store.
+        I designed and developed a landing page for an online electronic store
+        located in Austin, TX. My role involved wireframing and developing using
+        React and CSS.
       </p>
       <div className="konbini-link-container">
         <a
@@ -36,21 +38,11 @@ const Konbini = () => {
         </a>
       </div>
       <div className="konbini-prototype">
-        <h2 className="konbini-title konbini-title2">Prototype Design</h2>
+        <h2 className="konbini-title2">Prototype Design</h2>
         <div className="konbini-image">
           <img src={desktopImage} />
         </div>
       </div>
-      {/* 
-      <div className="row-2">
-        <div className="konbini-img">
-          <img src={konbiniLogo} />
-          <div className="konbini-overlay">
-            <p>View Project</p>
-          </div>
-        </div>
-      </div> */}
-
       <ContactSection />
     </div>
   );
